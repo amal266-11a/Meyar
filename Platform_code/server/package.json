@@ -1,0 +1,16 @@
+{
+  "name": "platform-code-checker-server",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "axe-core": "^4.12.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "playwright": "^1.61.0"
+  }
+}
